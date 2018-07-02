@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-gprint",
+  "version": "1.0.0",
+  "description": "Cordova plugin to support Gprinter's printer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muffrank/cordova-plugin-gprint.git"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "0.0.0": {
+        "cordova-android": ">=4.0.0"
+      },
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "author": "http://muffrank.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muffrank/cordova-plugin-gprint/issues"
+  },
+  "homepage": "https://github.com/muffrank/cordova-plugin-gprint#readme"
+}
