@@ -35,7 +35,7 @@
     }
     channel.createSticky('onCordovaConnectionReady');
     channel.waitForInitialization('onCordovaConnectionReady');
-    channel.onCordovaReady.subscribe(function () {
+    channel.onCordovaReady.subscribe(function (e) {
         exec(function (params) {
             if (params != "OK") {
                 cordova.fireDocumentEvent("printerConnect", params, false);
